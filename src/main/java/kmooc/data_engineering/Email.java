@@ -3,8 +3,8 @@ package kmooc.data_engineering;
 public class Email {
 
 
-	private int from;
-	private int to;
+	public int from;
+	public int to;
 	
 	
 	Email(int from, int to){

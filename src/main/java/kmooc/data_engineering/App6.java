@@ -95,10 +95,17 @@ public class App6 {
 	}
 	
 	public static void main(String[] args) throws IOException {
-		app2();
+		
+		long pre = System.currentTimeMillis();
+		
+		for (int i = 0 ; i < 100 ; i ++) {
+//		app2();
 		app3();
 		app4();
 		app5();
+		}
+		
+		System.out.println(System.currentTimeMillis() - pre);
 	}
 
 }
